@@ -1,0 +1,48 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding-top: 50px;
+}
+
+.s2-header {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.logo {
+  padding: 0;
+}
+
+.container-fluid {
+  padding: 0;
+  text-align: center;
+}
+
+.section1 {
+  background: url('../img/section1.JPG') top center no-repeat;
+  color: #eee;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.section1 .container {
+  max-width: 680px;
+  margin: 0 auto;
+  background-color:rgba(0, 0, 0, 0.4);
+  background-size: cover;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.media {
+  text-align: left;
+  font-size: 1.2em;
+}
+
+.media-left span {
+  margin-right: 15px;
+  color: #E2C044;
+}
