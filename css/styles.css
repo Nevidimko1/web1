@@ -21,6 +21,10 @@ body {
   text-align: center;
 }
 
+.navbar {
+  border-bottom-width: 0;
+}
+
 .section1 {
   background: url('../img/section1.JPG') top center no-repeat;
   color: #eee;
