@@ -15,6 +15,27 @@ body {
   padding: 0;
 }
 
+.contacts {
+  float: right;
+  margin-top: 3px;
+}
+
+.contacts p {
+  margin: 0;
+  padding-right: 15px;
+}
+
+.contacts p.main {
+  color: #eee;
+  font-size: 1.4em;
+}
+
+.contacts p.secondary {
+  color: #aaa;
+  font-size: 0.8em;
+  float: right;
+}
+
 .container-fluid {
   padding: 0;
   text-align: center;
