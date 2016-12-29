@@ -7,9 +7,8 @@ body {
   padding-top: 50px;
 }
 
-.s2-header {
-  margin-top: 10px;
-  margin-bottom: 20px;
+.navbar {
+  border-bottom-width: 0;
 }
 
 .logo {
@@ -21,22 +20,23 @@ body {
   text-align: center;
 }
 
-.navbar {
-  border-bottom-width: 0;
+.section-header {
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 .section1 {
   background: url('../img/section1.JPG') top center no-repeat;
+  background-size: cover;
   color: #eee;
   padding-top: 15px;
-  padding-bottom: 15px;
+  padding-bottom: 60px;
 }
 
 .section1 .container {
   max-width: 680px;
   margin: 0 auto;
-  background-color:rgba(0, 0, 0, 0.4);
-  background-size: cover;
+  background-color:rgba(0, 0, 0, 0.5);
   border-radius: 5px;
   padding: 15px;
 }
@@ -46,7 +46,57 @@ body {
   font-size: 1.2em;
 }
 
-.media-left span {
+.media .media-left span {
   margin-right: 15px;
   color: #E2C044;
+}
+
+.section2 {
+  background: #D3D0CB;
+  color: #444;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.s2-image {
+  height: 200px;
+  width: 100%;
+  display: block;
+  border: 1px solid #999;
+}
+
+.row-flex, .row-flex > div[class*='col-'] {  
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex:1 1 auto;
+}
+
+.row-flex-wrap {
+	-webkit-flex-flow: row wrap;
+  align-content: flex-start;
+  flex:0;
+}
+
+.row-flex > div[class*='col-'], .container-flex > div[class*='col-'] {
+	 margin:-.2px; /* hack adjust for wrapping */
+}
+
+.container-flex > div[class*='col-'] div,.row-flex > div[class*='col-'] div {
+	width:100%;
+}
+
+.flex-col {
+  display: flex;
+  display: -webkit-flex;
+  flex: 1 100%;
+	flex-flow: column nowrap;
+}
+
+.flex-grow {
+	display: flex;
+  -webkit-flex: 2;
+  flex: 2;
 }
