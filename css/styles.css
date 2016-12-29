@@ -71,12 +71,15 @@ body {
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
+    -webkit-flex: 1 1 auto;
     flex:1 1 auto;
 }
 
 .row-flex-wrap {
 	-webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
   align-content: flex-start;
+  -webkit-flex: 0;
   flex:0;
 }
 
