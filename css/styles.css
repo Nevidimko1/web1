@@ -5,6 +5,7 @@ html {
 
 body {
   padding-top: 50px;
+  margin-top: -50px;
 }
 
 .navbar {
@@ -37,7 +38,8 @@ body {
 }
 
 .container-fluid {
-  padding: 0;
+  padding-left: 0;
+  padding-right: 0;
   text-align: center;
 }
 
@@ -50,6 +52,7 @@ body {
   background: url('../img/section1.JPG') top center no-repeat;
   background-size: cover;
   color: #eee;
+  margin-top: 50px;
   padding-top: 15px;
   padding-bottom: 60px;
 }
@@ -77,6 +80,7 @@ body {
   color: #444;
   padding-top: 15px;
   padding-bottom: 15px;
+  margin-bottom: -50px;
 }
 
 .s2-image {
@@ -123,4 +127,42 @@ body {
 	display: flex;
   -webkit-flex: 2;
   flex: 2;
+}
+
+.section3 {
+  background: url('../img/section1.JPG') top center no-repeat;
+  background-size: cover;
+  color: #eee;
+  margin-top: 50px;
+  padding-top: 15px;
+  padding-bottom: 60px;
+  margin-bottom: -50px;
+}
+
+.section3 .container {
+  max-width: 680px;
+  margin: 0 auto;
+  background-color:rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.section4 {
+  background: #D3D0CB;
+  color: #444;
+  margin-top: 50px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-bottom: -50px;
+  height: 500px;
+}
+
+.section5 {
+  background: #444;
+  color: #eee;
+  margin-top: 50px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-bottom: -50px;
+  height: 500px;
 }
