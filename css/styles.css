@@ -6,6 +6,7 @@ html {
 body {
   padding-top: 50px;
   margin-top: -50px;
+  font-family: 'Istok Web', 'Helvetica Neue', 'Helvetica', 'Arial';
 }
 
 .navbar {
@@ -65,12 +66,12 @@ body {
   padding: 15px;
 }
 
-.media {
+.section1 .container .media {
   text-align: left;
   font-size: 1.2em;
 }
 
-.media .media-left span {
+.section1 .container .media .media-left span {
   margin-right: 15px;
   color: #E2C044;
 }
@@ -152,9 +153,17 @@ body {
   color: #444;
   margin-top: 50px;
   padding-top: 15px;
-  padding-bottom: 15px;
+  padding-bottom: 60px;
   margin-bottom: -50px;
-  height: 500px;
+}
+
+.section4 .container {
+  max-width: 800px;
+}
+
+.carousel-inner .item img {
+  display: block;
+  margin: 0 auto;
 }
 
 .section5 {
@@ -162,7 +171,36 @@ body {
   color: #eee;
   margin-top: 50px;
   padding-top: 15px;
-  padding-bottom: 15px;
+  padding-bottom: 50px;
   margin-bottom: -50px;
-  height: 500px;
+}
+
+.map {
+  height: 400px !important;
+  margin-bottom: 15px;
+}
+
+.info {
+  height: 400px;
+  font-size: 1.1em;
+  text-align: left;
+}
+
+.info .media {
+  margin-top: 5px;
+}
+
+.day {
+  width: 20px;
+}
+
+.info .media .media-left span {
+  margin-right: 10px;
+  color: #E2C044;
+}
+
+@media (max-width: 991px) {
+  .info {
+    height: 200px;
+  }
 }

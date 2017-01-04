@@ -218,7 +218,37 @@
         <h2 class="section-header">Наши работы</h2>
 
         <div class="container">
+          <div id="carousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#carousel" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel" data-slide-to="1"></li>
+              <li data-target="#carousel" data-slide-to="2"></li>
+            </ol>
 
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+              <div class="item active">
+                <img src="./img/carousel1.jpg">
+              </div>
+              <div class="item">
+                <img src="./img/carousel1.jpg">
+              </div>
+              <div class="item">
+                <img src="./img/carousel1.jpg">
+              </div>
+            </div>
+
+            <!-- Controls -->
+            <a class="left carousel-control" style="cursor: pointer;" onClick="$('.carousel').carousel('prev')">
+              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" style="cursor: pointer;" onClick="$('.carousel').carousel('next')">
+              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
         </div>
       </div>
     </section>
@@ -228,13 +258,54 @@
         <h2 class="section-header">Контакты</h2>
 
         <div class="container">
-
+          <div class="row">
+            <div class="col-sm-12 col-md-9 map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8703.720161714205!2d24.13792061988622!3d56.94999987078498!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46eece3af10d68a3%3A0xa93a494d05903d33!2sMoslat+%2C+SIA!5e0!3m2!1sen!2sus!4v1483472350944" width="100%"     height="400" frameborder="0" style="border:0" allowfullscreen>
+                </iframe>
+            </div>
+            <div class="col-sm-12 col-md-3">
+              <div class="info">
+                <div class="media">
+                  <div class="media-left">
+                  <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
+                  </div>
+                  <div class="media-body">
+                  +(371) 26134254
+                  </div>
+                </div>
+                <div class="media">
+                  <div class="media-left">
+                    <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+                  </div>
+                  <div class="media-body">
+                    moslat@transdata.lv
+                  </div>
+                </div>
+                <div class="media">
+                  <div class="media-left">
+                    <span class="glyphicon glyphicon-time" aria-hidden="true"></span>
+                  </div>
+                  <div class="media-body">
+                    <span class="day">Пн.</span>8:00 - 16:00<br/>
+                    <span class="day">Вт.</span>8:00 - 16:00<br/>
+                    <span class="day">Ср.</span>8:00 - 16:00<br/>
+                    <span class="day">Чт.</span>8:00 - 16:00<br/>
+                    <span class="day">Пт.</span>8:00 - 16:00<br/>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+
       </div>
     </section>
 
     <script src="js/jquery-3.1.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/smooth-scroll.js"></script>
+    <script type="text/javascript" language="javascript"> 
+      $('.map').css('height', $(window).height()+'px');
+    </script>
   </body>
 </html>
