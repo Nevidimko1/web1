@@ -11,10 +11,47 @@ body {
 
 .navbar {
   border-bottom-width: 0;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.navbar .container-fluid {
+  max-width: 1200px;
+  text-align: left;
+}
+
+.lang {
+  margin: 0 15px;
+  padding-top: 6px;
+  float: left;
+  height: 50px;
+  width: 30px;
+}
+
+.lv {
+  background: url('../img/lat.png') top center no-repeat;
+  width: 22px;
+  height: 16px;
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.ru {
+  background: url('../img/rus.png') top center no-repeat;
+  width: 22px;
+  height: 16px;
+  display: inline-block;
+  margin-left: 5px;
+}
+
+@media (min-width: 992px) {
+  .lang {
+    margin: 0 30px 0 0;
+  }
 }
 
 .logo {
-  padding: 0;
+  padding: 0 15px 0 0;
 }
 
 .contacts {
@@ -181,10 +218,6 @@ body {
 
 .section5 .container-fluid .row {
   text-align: left;
-}
-
-.day {
-  width: 20px;
 }
 
 .cap {
