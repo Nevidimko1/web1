@@ -255,45 +255,74 @@
 
     <section class="container-fluid" id="contacts">
       <div class="section5">
-        <h2 class="section-header">Контакты</h2>
-
-        <div class="container">
+        <div class="container-fluid">
           <div class="row">
-            <div class="col-sm-12 col-md-9 map">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8703.720161714205!2d24.13792061988622!3d56.94999987078498!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46eece3af10d68a3%3A0xa93a494d05903d33!2sMoslat+%2C+SIA!5e0!3m2!1sen!2sus!4v1483472350944" width="100%"     height="400" frameborder="0" style="border:0" allowfullscreen>
-                </iframe>
-            </div>
-            <div class="col-sm-12 col-md-3">
-              <div class="info">
-                <div class="media">
-                  <div class="media-left">
-                  <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
-                  </div>
-                  <div class="media-body">
-                  +(371) 26134254
-                  </div>
+            <div class="col-xs-6 col-sm-3 col-lg-2">
+              <div class="media">
+                <div class="media-left">
+                <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
                 </div>
-                <div class="media">
-                  <div class="media-left">
-                    <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
-                  </div>
-                  <div class="media-body">
-                    moslat@transdata.lv
-                  </div>
-                </div>
-                <div class="media">
-                  <div class="media-left">
-                    <span class="glyphicon glyphicon-time" aria-hidden="true"></span>
-                  </div>
-                  <div class="media-body">
-                    <span class="day">Пн.</span>8:00 - 16:00<br/>
-                    <span class="day">Вт.</span>8:00 - 16:00<br/>
-                    <span class="day">Ср.</span>8:00 - 16:00<br/>
-                    <span class="day">Чт.</span>8:00 - 16:00<br/>
-                    <span class="day">Пт.</span>8:00 - 16:00<br/>
-                  </div>
+                <div class="media-body">
+                +(371) 26134254
                 </div>
               </div>
+              <div class="media">
+                <div class="media-left">
+                  <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+                </div>
+                <div class="media-body" style="word-break: break-all;">
+                  moslat@transdata.lv
+                </div>
+              </div>
+              <div class="media">
+                <div class="media-left">
+                  <span class="glyphicon glyphicon-pushpin" aria-hidden="true"></span>
+                </div>
+                <div class="media-body">
+                  Rīga, Matīsa iela 92, LV-1009
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-6 col-sm-3 col-lg-2">
+              <div class="media">
+                <div class="media-left">
+                  <span class="glyphicon glyphicon-time" aria-hidden="true"></span>
+                </div>
+                <div class="media-body">
+                  <!--
+                  <dl class="dl-horizontal">
+                    <dt>Пн</dt><dd>8:00 - 16:00</dd>
+                    <dt>Вт</dt><dd>8:00 - 16:00</dd>
+                    <dt>Ср</dt><dd>8:00 - 16:00</dd>
+                    <dt>Чт</dt><dd>8:00 - 16:00</dd>
+                    <dt>Пт</dt><dd>8:00 - 16:00</dd>
+                    <dt>Сб</dt><dd class="weekend">выходной</dd>
+                    <dt>Вс</dt><dd class="weekend">выходной</dd>
+                  </dl>
+                  -->
+                  <table>
+                    <tr>
+                      <td class="cap">Пн</td><td>8:00 - 16:00</td>
+                    </tr><tr>
+                      <td class="cap">Вт</td><td>8:00 - 16:00</td>
+                    </tr><tr>
+                      <td class="cap">Ср</td><td>8:00 - 16:00</td>
+                    </tr><tr>
+                      <td class="cap">Чт</td><td>8:00 - 16:00</td>
+                    </tr><tr>
+                      <td class="cap">Пт</td><td>8:00 - 16:00</td>
+                    </tr><tr>
+                      <td class="cap">Сб</td><td class="weekend">выходной</td>
+                    </tr><tr>
+                      <td class="cap">Вс</td><td class="weekend">выходной</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-lg-8">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8703.720161714205!2d24.13792061988622!3d56.94999987078498!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46eece3af10d68a3%3A0xa93a494d05903d33!2sMoslat+%2C+SIA!5e0!3m2!1sen!2sus!4v1483472350944" width="100%"     height="165" frameborder="0" style="border:0" allowfullscreen>
+                </iframe>
             </div>
           </div>
         </div>
@@ -304,8 +333,5 @@
     <script src="js/jquery-3.1.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/smooth-scroll.js"></script>
-    <script type="text/javascript" language="javascript"> 
-      $('.map').css('height', $(window).height()+'px');
-    </script>
   </body>
 </html>
