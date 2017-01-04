@@ -337,5 +337,11 @@
     <script src="js/jquery-3.1.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/smooth-scroll.js"></script>
+    <script>
+      //hide nav on item click
+      $('.navbar a').on('click', function(){
+        $('.navbar-collapse').collapse('hide');
+      });
+    </script>
   </body>
 </html>
