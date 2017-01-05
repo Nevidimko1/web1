@@ -196,6 +196,7 @@ body {
 }
 
 .section4 .container {
+  padding: 0;
   max-width: 800px;
 }
 
