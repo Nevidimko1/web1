@@ -54,6 +54,10 @@ body {
   padding: 0 15px 0 0;
 }
 
+.logo img {
+  height: 50px;
+}
+
 .contacts {
   float: right;
   margin-top: 3px;
@@ -87,7 +91,7 @@ body {
 }
 
 .section1 {
-  background: url('../img/section1.JPG') top center no-repeat;
+  background: url('../img/section.JPG') top center no-repeat;
   background-size: cover;
   color: #eee;
   margin-top: 50px;
@@ -168,7 +172,7 @@ body {
 }
 
 .section3 {
-  background: url('../img/section1.JPG') top center no-repeat;
+  background: url('../img/section.JPG') top center no-repeat;
   background-size: cover;
   color: #eee;
   margin-top: 50px;
