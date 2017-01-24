@@ -50,6 +50,26 @@ body {
   }
 }
 
+@media (max-width: 457px) {
+  .section1 {
+    margin-top: 95px !important;
+  }
+  .section2 {
+    margin-bottom: -95px !important;
+  }
+  .section3 {
+	margin-top: 95px !important;
+	margin-bottom: -95px !important;
+  }
+  .section4 {
+	margin-top: 95px !important;
+	margin-bottom: -95px !important;
+  }
+  .section5 {
+	margin-bottom: -95px !important;
+  }
+}
+
 .logo {
   padding: 0 15px 0 0;
 }
@@ -241,6 +261,7 @@ body {
 
 .media {
   margin-top: 5px;
+  overflow: visible;
 }
 
 .media .media-left span {
