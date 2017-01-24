@@ -91,7 +91,7 @@ body {
 }
 
 .section1 {
-  background: url('../img/section.JPG') top center no-repeat;
+  background: url('../img/section.jpg') top center no-repeat;
   background-size: cover;
   color: #eee;
   margin-top: 50px;
@@ -172,7 +172,7 @@ body {
 }
 
 .section3 {
-  background: url('../img/section.JPG') top center no-repeat;
+  background: url('../img/section.jpg') top center no-repeat;
   background-size: cover;
   color: #eee;
   margin-top: 50px;
